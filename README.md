@@ -10,6 +10,7 @@ This repository contains the code and report for analyzing the LEGO Bricks datas
 - [Dimensionality Reduction](#dimensionality-reduction)
 - [Accuracy Analysis](#accuracy-analysis)
 - [Repository Structure](#repository-structure)
+- [Letting the programs to allocate more memory](#letting-the-programs-to-allocate-more-memory)
 - [Requirements](#requirements)
 - [Usage](#usage)
 - [License](#license)
@@ -47,6 +48,20 @@ The repository is organized as follows:
 - `fad-gabriel_lins.ipynb`: Notebook containing the code for dataset splitting, SVD analysis, dimensionality reduction, and accuracy analysis
 
 Feel free to explore the code and report to understand the analysis process and findings.
+
+## Letting the programs to allocate more memory
+
+Simply do:
+
+```shell
+echo 1 > /proc/sys/vm/overcommit_memory
+```
+
+**Attention!** Do not forget to disable it after:
+
+```shell
+echo 0 > /proc/sys/vm/overcommit_memory
+```
 
 ## Requirements
 
