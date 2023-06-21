@@ -2,6 +2,9 @@
 dataset
 documents
 
+# Large files
+savepoints
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
