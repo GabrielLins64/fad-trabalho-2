@@ -54,13 +54,13 @@ Feel free to explore the code and report to understand the analysis process and 
 Simply do:
 
 ```shell
-echo 1 > /proc/sys/vm/overcommit_memory
+echo 1 | sudo tee /proc/sys/vm/overcommit_memory
 ```
 
 **Attention!** Do not forget to disable it after:
 
 ```shell
-echo 0 > /proc/sys/vm/overcommit_memory
+echo 0 | sudo tee /proc/sys/vm/overcommit_memory
 ```
 
 ## Requirements
