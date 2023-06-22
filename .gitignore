@@ -3,7 +3,7 @@ dataset
 documents
 
 # Large files
-savepoints
+checkpoints
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
